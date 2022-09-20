@@ -8,6 +8,29 @@
         <Title>Título</Title>
     </head>
     <body>
+        <!-- intento ajustar el navbar-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+            <div class="container-fluid ">
+              <!-- Links -->    
+              <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item ">
+                  <a class="nav-link " href="https://www.twitter.com/Gerynyan">Twitter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://instagram.com/gernyan">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/loxtombox">GitHub</a>
+                </li>
+              </ul>
+            </div>
+          
+          </nav>
+
+
+
+
         <div class="container p-5 my-5 border bg-dark text-white">
             <h1>Título 1 <small>Secundario xikito</small></h1>
             <h2>Título 2 <small>Secundario xikito</small></h2>
@@ -86,9 +109,26 @@
             <div class="btn-group">
               <button type="button" class="btn btn-primary">Uno</button>
               <button type="button" class="btn btn-primary">Do</button>
-              <button type="button" class="btn btn-primary">Tre</button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Tre</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">eins</a>
+                  <a class="dropdown-item" href="#">Zwei</a>
+                </div>
+              </div>
             </div>
+
+            <h2>Estilo de paginación</h2>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul> 
           </div>  
+
+          
         </div>
 
         <!-- Añadir table-responsive agrega un scroll a esta     si no cabe-->
